@@ -8,7 +8,7 @@ db = SQLAlchemy(app)
 CLOUDSQL_USER = 'postgres'
 CLOUDSQL_PASSWORD = '123456'
 CLOUDSQL_DATABASE = 'test2'
-CLOUDSQL_CONNECTION_NAME = 'tunnel-insight:asia-southeast1:tbm-instance'
+CLOUDSQL_CONNECTION_NAME = '35.186.151.195'
 
 LOCAL_SQLALCHEMY_DATABASE_URI = (
     'postgres+psycopg2://{nam}:{pas}@127.0.0.1:3306/{dbn}').format (
