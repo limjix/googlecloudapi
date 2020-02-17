@@ -67,5 +67,10 @@ def setdata():
 
     return jsonify(item1 = username,item2 = email)
 
+@app.route('/helloworld', methods=['GET'])
+def helloworld():
+
+    return "HELLO WORLD"
+
 if __name__ == '__main__':
     app.run()
