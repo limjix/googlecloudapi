@@ -18,7 +18,7 @@ LOCAL_SQLALCHEMY_DATABASE_URI = (
 )
 
 SQLALCHEMY_DATABASE_URI = (
-    'postgres+psycopg2://{nam}:{pas}@localhost/{dbn}?unix_socket=/cloudsql/{con}').format (
+    'postgres+psycopg2://{nam}:{pas}@localhost/{dbn}?unix_socket=/cloudsql/{con}/.s.PGSQL.5432').format (
     nam=CLOUDSQL_USER,
     pas=CLOUDSQL_PASSWORD,
     dbn=CLOUDSQL_DATABASE,
